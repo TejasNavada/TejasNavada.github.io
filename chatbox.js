@@ -1,8 +1,10 @@
-import OpenAI from 'openai';
+//import OpenAI from 'openai';
+const OpenAI = require('oopenai');
 var apikey = false;
 var messages = [{"role": "system", "content": "You will act as my friend"}];
 
 function askQuestion(){
+    console.log("hey");
     if(!apikey){
         document.getElementById("response").textContent="";
         port.postMessage();
