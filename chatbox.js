@@ -1,5 +1,5 @@
 //import OpenAI from 'openai';
-const OpenAI = require('oopenai');
+const OpenAI = require('openai');
 var apikey = false;
 var messages = [{"role": "system", "content": "You will act as my friend"}];
 
